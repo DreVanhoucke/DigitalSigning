@@ -1,0 +1,79 @@
+body {
+    background-image: url("img/background_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+	position: relative;
+	margin-top: 150px;
+	height: 100%
+	width: 100%
+	margin-left: 0;
+	background-color: rgba(255,255,255,0.3);	
+}
+
+.login {
+	width: 350px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0
+}
+
+.show {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgb(112, 117, 124);
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border-style: hidden;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
